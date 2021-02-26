@@ -219,7 +219,7 @@ export default class BaiTapRenderMap extends Component {
                 height="300"
                 className="card-img-top w-100"
                 src={film.hinhAnh}
-                alt
+                alt={film.hinhAnh}
               />
             </div>
             <div className="card-body">
