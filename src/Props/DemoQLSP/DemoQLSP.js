@@ -104,6 +104,8 @@ export default class DemoQLSP extends Component {
   // Chức năng tăng giảm số lượng
   tangGiamSL = (maSP,tangGiam) => {
     let gioHangCapNhat = [...this.state.gioHang];
+    // let gioHangCapNhat = this.state.gioHang.slice();
+    // console.log(gioHangCapNhat);
     // Tìm trong giỏ hàng có sp nào trùng mã
     let index = gioHangCapNhat.findIndex(sp=>sp.maSP === maSP);
     if(tangGiam){

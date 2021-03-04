@@ -8,7 +8,8 @@ import RenderWithMap from './renderWithMap/RenderWithMap';
 import BaiTapRenderMap from './renderWithMap/BaiTapRenderMap';
 import DemoProps from './Props/DemoProps';
 import DemoQLSP from './Props/DemoQLSP/DemoQLSP';
-
+import BTGioHangRedux from './DemoRedux/BaiTapGioHangRedux/BTGioHangRedux';
+import BTGameXX from './DemoRedux/BaiTapXucXac/BTGameXX'
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,9 @@ function App() {
      {/* <RenderWithMap/> */}
      {/* <BaiTapRenderMap/> */}
      {/* <DemoProps/> */}
-     <DemoQLSP/>
+     {/* <DemoQLSP/> */}
+     <BTGioHangRedux></BTGioHangRedux>
+     {/* <BTGameXX/> */}
     </div>
   );
 }
