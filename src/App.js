@@ -10,6 +10,7 @@ import DemoProps from './Props/DemoProps';
 import DemoQLSP from './Props/DemoQLSP/DemoQLSP';
 import BTGioHangRedux from './DemoRedux/BaiTapGioHangRedux/BTGioHangRedux';
 import BTGameXX from './DemoRedux/BaiTapXucXac/BTGameXX'
+import BaiTapOanTuTi from './DemoRedux/BaiTapOanTuTi/BaiTapOanTuTi';
 function App() {
   return (
     <div className="App">
@@ -19,8 +20,9 @@ function App() {
      {/* <BaiTapRenderMap/> */}
      {/* <DemoProps/> */}
      {/* <DemoQLSP/> */}
-     <BTGioHangRedux></BTGioHangRedux>
-     {/* <BTGameXX/> */}
+     {/* <BTGioHangRedux></BTGioHangRedux> */}
+     <BTGameXX/>
+     {/* <BaiTapOanTuTi/> */}
     </div>
   );
 }

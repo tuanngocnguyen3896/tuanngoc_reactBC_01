@@ -40,9 +40,9 @@ const mapDispatchToProps = (dispatch) => {
         type: 'THEM_GIO_HANG', // thuộc tính bắt buộc
         spGioHang : spGioHang
       }
-      // console.log(action)
+      console.log(action);
       // dùng dispatch đưa dl lên redux store
-      dispatch(action)
+      dispatch(action);
     }
   }
 }

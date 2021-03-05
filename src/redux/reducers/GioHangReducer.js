@@ -16,9 +16,9 @@ const stateDefaut = {
     ]
 }
 export const gioHangReducer = (state = stateDefaut,action) => {
-    switch (type.action) {
+    switch (action.type) {
         case 'THEM_GIO_HANG':{
-            // console.log(action)
+            console.log(action)
             // B1: xử lý thay đổi state.gioHang trên redux
             // sao chép  gioHang ra array mới 
             const gioHangUpdate = [...state.gioHang];
